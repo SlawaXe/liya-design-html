@@ -1,0 +1,74 @@
+.site-header {
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-top: em(16);
+        padding-bottom: em(16);
+        border-bottom: em(1.2) solid $gray1;
+    }
+}
+
+.site-header--logo {
+    flex: 1;
+}
+
+.site-header--nav {
+
+    .nav {
+
+        & > li {
+            padding: em(8);
+            margin-right: em(12);
+            margin-left: em(12);
+
+            & > a {
+                text-transform: uppercase;
+                color: $main;
+                font-weight: 300;
+                font-size: em(14);
+                line-height: 1;
+
+                svg {
+                    margin-left: em(6);
+                    position: relative;
+                    top: em(-2)
+                }
+
+                &:hover {
+                    color: $acent;
+
+                    & svg path {
+                        fill: $acent;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.site-header--phone {
+    margin-left: em(42);
+
+    a {
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: em(16);
+        color: $main;
+
+        &:hover {
+            color: $acent;
+        }
+    }
+}
+
+.site-header--cart {
+    margin-left: em(24);
+
+    &:hover {
+        svg path {
+            fill: $main;
+        }
+    }
+}

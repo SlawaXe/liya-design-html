@@ -1,0 +1,30 @@
+
+.block-main {
+    padding-top: em(24);
+}
+
+.block-main--offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .btn-group {
+        margin-top: em(65);
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1440px) {
+    .block-main--title {
+        font-size: em(52);
+    }
+
+    .block-main {
+
+        .btn-group {
+
+            .btn {
+                font-size: em(12);
+            }
+        }
+    }
+}

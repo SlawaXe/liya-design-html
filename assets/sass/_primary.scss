@@ -1,0 +1,41 @@
+html,
+body {
+    min-height: 100%;
+    //min-width: 360px;
+}
+
+img {
+    max-width: 100%;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+a {
+    transition: $transition;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a, svg path, svg rect, svg g, svg circle {
+    transition: $transition;
+}
+
+.black {
+    color: #000 !important;
+}
+
+ul {
+    padding-left: 26px;
+}

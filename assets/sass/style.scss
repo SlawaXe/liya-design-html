@@ -1,0 +1,36 @@
+// Bootstrap
+@import 'bootstrap';
+
+@import 'helps';
+
+// Other
+@import 'primary';
+
+// Mixins
+@import 'mixins/mixins-master';
+
+
+// Layout
+@import 'layout/header';
+//@import 'layout/footer';
+
+
+// Pages
+@import 'pages/home';
+
+// Components
+@import 'componets/fonts';
+@import 'componets/typography';
+@import 'componets/buttons';
+//@import 'componets/forms';
+@import 'componets/section';
+@import 'componets/title';
+@import 'componets/nav';
+@import 'componets/catalog-high-cols';
+@import 'componets/carousel-project';
+//@import 'componets/modal';
+
+
+// Plugins
+@import 'plugins/owl.carousel';
+
