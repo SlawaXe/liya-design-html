@@ -2,7 +2,6 @@ shared
 db-sync
 .git
 vendor
-web/img
 *.sql
 *.zip
 *.rar
